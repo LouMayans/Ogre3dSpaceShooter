@@ -1,0 +1,42 @@
+﻿Build started 5/11/2018 1:12:51 PM.
+     1>Project "C:\Users\Lou\Documents\Stuff\Ogre3D\Projects\TopScroller\TopScroller\TopScroller.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Tutorial0_9.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\cegui\include\cegui-0\\" /IC:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\\include\OIS /IC:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\\include\OGRE\Overlay /IC:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\\include\OGRE /IC:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\\include /IC:\Users\Lou\Documents\Stuff\Ogre3D\classENV\boost_1_60_0\ /I"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\bullet-2.82\src\/BulletCollision/CollisionShapes" /I"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\bullet-2.82\src\\" /I"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\bullet-2.82\src\/LinearMath" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Enemy.cpp EnemyContainer.cpp JetController.cpp TopScroller.cpp
+         TopScroller.cpp
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.h(61): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\topscroller.cpp(219): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\topscroller.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\topscroller.cpp(258): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\topscroller.cpp(421): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\lou\documents\stuff\ogre3d\classenv\build9\include\ogre\ogremath.h(372): warning C4244: 'return' : conversion from 'const Ogre::Real' to 'int', possible loss of data
+                 c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\topscroller.cpp(289) : see reference to function template instantiation 'V Ogre::Math::lerp<int,Ogre::Real>(const V &,const V &,const T &)' being compiled
+                 with
+                 [
+                     V=int
+         ,            T=Ogre::Real
+                 ]
+         Enemy.cpp
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.h(61): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.cpp(102): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.cpp(114): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.cpp(159): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(157): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.cpp(75) : see reference to function template instantiation 'std::pair<Ogre::SceneNode *,float>::pair<Ogre::SceneNode*,__w64 int,void>(std::pair<Ogre::SceneNode *,__w64 int> &&)' being compiled
+                 c:\users\lou\documents\stuff\ogre3d\projects\topscroller\topscroller\enemy.cpp(75) : see reference to function template instantiation 'std::pair<Ogre::SceneNode *,float>::pair<Ogre::SceneNode*,__w64 int,void>(std::pair<Ogre::SceneNode *,__w64 int> &&)' being compiled
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         JetController.cpp
+         EnemyContainer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\bin\debug\\TopScroller.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\lib\\debug /LIBPATH:"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\boost_1_60_0\lib32-msvc-12.0\\" /LIBPATH:C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\cegui\lib\ /LIBPATH:"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\bullet-2.82\lib\\" OgreMain_d.lib OgreOverlay_d.lib OIS_d.lib "CEGUIBase-0_d.lib" "CEGUIOgreRenderer-0_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OgreTerrain_d.lib BulletCollision_vs2010_debug.lib BulletDynamics_vs2010_debug.lib BulletSoftBody_vs2010_debug.lib ConvexDecomposition_vs2010_debug.lib BulletSoftBodyDX11Solvers_vs2010_debug.lib HACD_vs2010_debug.lib LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\bin\debug\\TopScroller.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\bin\debug\\TopScroller.lib" /MACHINE:X86 Debug\BaseApplication.obj
+         Debug\Enemy.obj
+         Debug\EnemyContainer.obj
+         Debug\JetController.obj
+         Debug\TopScroller.obj
+         TopScroller.vcxproj -> C:\Users\Lou\Documents\Stuff\Ogre3D\classENV\Build9\bin\debug\\TopScroller.exe
+     1>Done Building Project "C:\Users\Lou\Documents\Stuff\Ogre3D\Projects\TopScroller\TopScroller\TopScroller.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.76

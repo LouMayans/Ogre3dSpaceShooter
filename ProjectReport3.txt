@@ -1,0 +1,18 @@
+Added Shooting mechanic for the jet.
+Added an updateBullets function to move the bullet
+Created menu screen when 'P' is pressed.
+Added a pause mechanic when 'P' is pressed aswell.
+made the mouse cursor properly appear and dissapear when needed.
+Created a debug button on the menu to me able to move the camera around.
+Added CEGUI things for the mouse movement and clicks. 
+Added a pop-up console so i will be able to debug the code through it.
+Added collision and rigidbody to the bullets.
+created a box and made collision checks from the bullet to the box and then destroyed the bullet if it collided.
+figured out how to do collision checks without BulletPhysics so I will be removing the code for it. Do not think i will need it at all for the rest of the game.
+Started enemy code.
+created start menu which lets you start the game with a button.
+Created start sequence
+made the camera stop at the end for the boss battle.
+BUG:while shooting, moving the jet is ignored sometimes???????????
+Made some Enemyjets and fixed their shooting.
+switched the jetpos text to health text and shooting the enemies kill them and you can get hurt but not death yet.

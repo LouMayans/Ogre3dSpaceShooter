@@ -1,0 +1,32 @@
+Lou Mayans
+
+
+Press P to pause\n Move with the arrow keys\n shoot with A\n DebugMode rotate with arrow Keys and move while holding shift
+
+
+To create a top down scrolling shooter that the goal of the game is to get as much score as possible.
+The game will have a fighter jet as its main controller and will have 2 seperate shooting abilities, 1 will be the bullet projectile
+	that shoots forward of the jet. The other ability will be a bomb projectile that will drop at a fixed position infront of the jet.
+	I will also have different types of enemies, some features of the enemy is that they might shoot straight at you, try to collide with you, or will shoot lasers.
+	The ground enemies will be fixed on ground and will most likely only shoot missles at you that the jet can dodge or repel.	
+Goals:
+
+	(x)Create enemy movement controllers.
+	(x)Create a Boss with its models and mechanics.
+	(x)Create a level all the way til the end boss.
+	(x)Add debugging button so you can see the coordinates or whatever info needed
+	(x)Create a starting section with a button Press to Start and Game Controls.
+	(x)make entering scene with ship arriving from right and then rotating forward and do not let the player control until it gets there.
+		(x)Use a timer to start different parts of the scene.
+	(x)Create lose sequence.
+	(x)Create highscores
+	(x)Create an ending scene that will show you the score you achieved and if you passed or not.
+	(x)Create a jet movement controller
+	(x)Create a second screen that can be toggled for debugging
+	(x)Create a pause menu
+	(x)Create jet fire mechanics.
+	(x)Create a camera that moves at a constant speed one direction
+	(x)Limit the movements of the jet in a confined area around the camera
+	(\)Create jet low poly models. // not going to do since there is a jet model already in Ogre
+	(\)create enemy projectile controllers. //this will be with the enemy controllers instead.
+	(\)Create enemy models. //will use the jet models and change colors and other basic models

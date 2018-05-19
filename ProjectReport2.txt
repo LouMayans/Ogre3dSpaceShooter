@@ -1,0 +1,6 @@
+Added includes to the project to be able to implement bullet physics for the collision and movements.
+Made TutorialApplication a singleton to be able to be used in other files which means I also changed main to be able to use pointer on TutorialApplication.
+Made header file for the JetController.h and made the class a singleton and created multiple functions such as createJet with bullet. Start and Update are used inside the Tutorial Application
+Made the jet move with arrow keys and added boundaries so it doesnt go past the screen
+
+

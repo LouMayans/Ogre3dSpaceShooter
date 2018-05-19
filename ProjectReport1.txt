@@ -1,0 +1,4 @@
+Added the terrain from the tutorial and lightning to the scene to make it look like there is something there
+added box object to the scene that will hopefully be the start of the floor for the game.
+scaled the box to make it longer and found the size of the box and changed the position to where one of the long sides was positioned at 0,0,0
+Made the camera look down. added camera to container scenenode and make it move across the box at a constant speed.

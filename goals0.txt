@@ -1,0 +1,13 @@
+Lou Mayans
+
+Game: Scrolling Shooter
+
+My project is to createa scrolling shooter.
+The base goal for the game is to gain as much score as possible by destroy enemy bases, and bosses with your fighter jet.
+
+Features:
+    Highscore system
+    Jet movement
+    simple AI
+    Boss mechanics
+    Camera Scrolling
